@@ -11,6 +11,9 @@
 		E4D95D8E29EC8ADB004659EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95D8D29EC8ADB004659EC /* ContentView.swift */; };
 		E4D95D9029EC8ADD004659EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95D8F29EC8ADD004659EC /* Assets.xcassets */; };
 		E4D95D9329EC8ADD004659EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95D9229EC8ADD004659EC /* Preview Assets.xcassets */; };
+		E4D95DE829EC8FB0004659EC /* TextAndSecureFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */; };
+		E4D95DEA29EC96E6004659EC /* AdvancedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */; };
+		E4D95DEC29ECA42A004659EC /* TextEditorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E4D95D8D29EC8ADB004659EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4D95D8F29EC8ADD004659EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D95D9229EC8ADD004659EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndSecureFields.swift; sourceTree = "<group>"; };
+		E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedTextField.swift; sourceTree = "<group>"; };
+		E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				E4D95D8D29EC8ADB004659EC /* ContentView.swift */,
 				E4D95D8F29EC8ADD004659EC /* Assets.xcassets */,
 				E4D95D9129EC8ADD004659EC /* Preview Content */,
+				E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */,
+				E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */,
+				E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */,
 			);
 			path = Chapter07;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D95D8E29EC8ADB004659EC /* ContentView.swift in Sources */,
+				E4D95DEA29EC96E6004659EC /* AdvancedTextField.swift in Sources */,
 				E4D95D8C29EC8ADB004659EC /* Chapter07App.swift in Sources */,
+				E4D95DEC29ECA42A004659EC /* TextEditorDemo.swift in Sources */,
+				E4D95DE829EC8FB0004659EC /* TextAndSecureFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
