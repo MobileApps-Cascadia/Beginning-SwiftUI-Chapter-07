@@ -24,20 +24,37 @@ struct AdvancedTextFieldView: View {
                 Spacer()
                 
                 Form {
-                    TextField(text: $userName, prompt: Text("Required")) {
+                    TextField(text: $userName, prompt: Text("Username or email")) {
                         Text("Username")
                     }
-                    SecureField(text: $userHeroName, prompt: Text("Required")) {
+                    .keyboardType(.emailAddress)
+                    SecureField(text: $userHeroName, prompt: Text("Password")) {
                         Text("Password")
+
                     }
+                   
+                    
                 }
                 
+                Button("Log in"){
+                    if(userName == "AwesomeBob" && userHeroName == "AwesomePassword"){
+                        print("You have logged in successfully")
+                    }
+                    else{
+                        print("Invalid Login")
+                    }
+                }
                 Spacer()
+                Button("Forgot password?"){
+                    
+                }
+                
+                /*Spacer()
                 Divider()
-                Spacer()
+                Spacer()*/
             }
             
-            VStack {
+           /* VStack {
                 Text("Different keyboard types:")
                 TextField("Type here", text: $message)
                     .keyboardType(.phonePad)
@@ -52,7 +69,7 @@ struct AdvancedTextFieldView: View {
                     .padding()
                 
                 Spacer()
-            }
+            }*/
         }
     }
 }

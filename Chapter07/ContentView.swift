@@ -25,7 +25,7 @@ struct ContentView: View {
             TextEditorDemo()
                 .tabItem {
                     Image(systemName: "3.circle")
-                    Text("View 3")
+                    Text("Text editor")
                 }
         }
             .padding()

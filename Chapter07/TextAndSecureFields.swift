@@ -24,7 +24,11 @@ struct TextAndSecureView: View {
                 
                 Text("Type your name here:")
                 TextField(".e.g., Mike", text: $userName)
+                    .submitLabel(.done)
+                    .frame(width: 100)
+                
                 Text("Your name: " + userName)
+                    .frame(width:200, height: 50)
                 
                 Spacer()
                 Divider()
@@ -34,6 +38,7 @@ struct TextAndSecureView: View {
             VStack {
                 Text("Type your super hero name here:")
                 SecureField(".e.g., Batman", text: $userHeroName)
+                    .submitLabel(.done)
                 Text("Secretly, you are the super hero  " + userHeroName)
                 
                 
@@ -46,9 +51,10 @@ struct TextAndSecureView: View {
                 Text("Type your name here:")
                 TextField(".e.g., Mike", text: $userName)
                     .textFieldStyle(.roundedBorder)
-                    .foregroundColor(.blue)
+                    .disableAutocorrection(true)
+                    .foregroundColor(.green)
                     .padding()
-                    .background(.green)
+                    .background(.pink)
                 Text("Your name: " + userName)
                 
                 Spacer()

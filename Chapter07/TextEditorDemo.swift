@@ -38,7 +38,13 @@ struct TextEditorDemo: View {
             
             TextEditor(text: $theText)
                 .border(Color.gray, width: 1)
+                .focused($dismissKeyboard)
+            
                 .padding() // so we can see the box we're supposed to tap in
+                .frame(width: 400, height: 200)
+            Button("Hide Keyboard"){
+                dismissKeyboard = false
+            }
                 .toolbar {
                     ToolbarItem(placement: .keyboard) {
                         Button("Done") {
