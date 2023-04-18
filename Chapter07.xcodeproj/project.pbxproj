@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4145A7B29EE54C900D15766 /* SomeKeyword.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SomeKeyword.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E4D95D8829EC8ADB004659EC /* Chapter07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D95D8B29EC8ADB004659EC /* Chapter07App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter07App.swift; sourceTree = "<group>"; };
 		E4D95D8D29EC8ADB004659EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 				E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */,
 				E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */,
 				E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */,
+				E4145A7B29EE54C900D15766 /* SomeKeyword.playground */,
 			);
 			path = Chapter07;
 			sourceTree = "<group>";
