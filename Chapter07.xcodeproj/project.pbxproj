@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F646E9129EF626700D4E437 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F646E9029EF626700D4E437 /* TextFields.swift */; };
+		3F646E9329EF64C600D4E437 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F646E9229EF64C600D4E437 /* Login.swift */; };
+		3F646E9529EF6A3100D4E437 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F646E9429EF6A3100D4E437 /* Settings.swift */; };
 		E4D95D8C29EC8ADB004659EC /* Chapter07App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95D8B29EC8ADB004659EC /* Chapter07App.swift */; };
 		E4D95D8E29EC8ADB004659EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95D8D29EC8ADB004659EC /* ContentView.swift */; };
 		E4D95D9029EC8ADD004659EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95D8F29EC8ADD004659EC /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F646E9029EF626700D4E437 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		3F646E9229EF64C600D4E437 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3F646E9429EF6A3100D4E437 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		E4145A7B29EE54C900D15766 /* SomeKeyword.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SomeKeyword.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E4D95D8829EC8ADB004659EC /* Chapter07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D95D8B29EC8ADB004659EC /* Chapter07App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter07App.swift; sourceTree = "<group>"; };
@@ -58,6 +64,7 @@
 		E4D95D8A29EC8ADB004659EC /* Chapter07 */ = {
 			isa = PBXGroup;
 			children = (
+				3F646E9429EF6A3100D4E437 /* Settings.swift */,
 				E4D95D8B29EC8ADB004659EC /* Chapter07App.swift */,
 				E4D95D8D29EC8ADB004659EC /* ContentView.swift */,
 				E4D95D8F29EC8ADD004659EC /* Assets.xcassets */,
@@ -66,6 +73,8 @@
 				E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */,
 				E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */,
 				E4145A7B29EE54C900D15766 /* SomeKeyword.playground */,
+				3F646E9029EF626700D4E437 /* TextFields.swift */,
+				3F646E9229EF64C600D4E437 /* Login.swift */,
 			);
 			path = Chapter07;
 			sourceTree = "<group>";
@@ -148,11 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F646E9329EF64C600D4E437 /* Login.swift in Sources */,
 				E4D95D8E29EC8ADB004659EC /* ContentView.swift in Sources */,
+				3F646E9529EF6A3100D4E437 /* Settings.swift in Sources */,
 				E4D95DEA29EC96E6004659EC /* AdvancedTextField.swift in Sources */,
 				E4D95D8C29EC8ADB004659EC /* Chapter07App.swift in Sources */,
 				E4D95DEC29ECA42A004659EC /* TextEditorDemo.swift in Sources */,
 				E4D95DE829EC8FB0004659EC /* TextAndSecureFields.swift in Sources */,
+				3F646E9129EF626700D4E437 /* TextFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
