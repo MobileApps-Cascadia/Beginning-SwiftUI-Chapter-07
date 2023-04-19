@@ -10,16 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            TextAndSecureView()
+            TextFields()
                 .tabItem {
                     Image(systemName: "1.circle")
-                    Text("Basic TextFields")
+                    Text("Class done Text Fields")
                 }
             
-            AdvancedTextFieldView()
+            PassWord()
                 .tabItem {
                     Image(systemName: "2.circle")
-                    Text("Advanced TextFields")
+                    Text("Log in Page")
                 }
             
             TextEditorDemo()
