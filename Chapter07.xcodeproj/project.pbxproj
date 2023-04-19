@@ -14,6 +14,8 @@
 		E4D95DE829EC8FB0004659EC /* TextAndSecureFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */; };
 		E4D95DEA29EC96E6004659EC /* AdvancedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */; };
 		E4D95DEC29ECA42A004659EC /* TextEditorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */; };
+		ED5D329F29EF61ED000F5B49 /* PassWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D329E29EF61ED000F5B49 /* PassWord.swift */; };
+		ED5D32A129EF6410000F5B49 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D32A029EF6410000F5B49 /* TextFields.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndSecureFields.swift; sourceTree = "<group>"; };
 		E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedTextField.swift; sourceTree = "<group>"; };
 		E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemo.swift; sourceTree = "<group>"; };
+		ED5D329E29EF61ED000F5B49 /* PassWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWord.swift; sourceTree = "<group>"; };
+		ED5D32A029EF6410000F5B49 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E4D95D8F29EC8ADD004659EC /* Assets.xcassets */,
 				E4D95D9129EC8ADD004659EC /* Preview Content */,
 				E4D95DE729EC8FB0004659EC /* TextAndSecureFields.swift */,
+				ED5D329E29EF61ED000F5B49 /* PassWord.swift */,
+				ED5D32A029EF6410000F5B49 /* TextFields.swift */,
 				E4D95DE929EC96E6004659EC /* AdvancedTextField.swift */,
 				E4D95DEB29ECA42A004659EC /* TextEditorDemo.swift */,
 				E4145A7B29EE54C900D15766 /* SomeKeyword.playground */,
@@ -152,6 +158,8 @@
 				E4D95DEA29EC96E6004659EC /* AdvancedTextField.swift in Sources */,
 				E4D95D8C29EC8ADB004659EC /* Chapter07App.swift in Sources */,
 				E4D95DEC29ECA42A004659EC /* TextEditorDemo.swift in Sources */,
+				ED5D329F29EF61ED000F5B49 /* PassWord.swift in Sources */,
+				ED5D32A129EF6410000F5B49 /* TextFields.swift in Sources */,
 				E4D95DE829EC8FB0004659EC /* TextAndSecureFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,21 +1,21 @@
 //
-//  AdvancedTextField.swift
+//  PassWord.swift
 //  Chapter07
 //
-//  Created by Mike Panitz on 4/16/23.
+//  Created by Kenny Luchau on 4/18/23.
 //
 
 import SwiftUI
 
 @available(iOS 15.0, *)
-struct AdvancedTextFieldView: View {
+struct PassWord: View {
     @State var userName = ""
-    @State var userHeroName = ""
+    @State var password = ""
     @State var message = ""
     
     var body: some View {
         VStack {
-            Text("Advanced TextFields")
+            Text("Login Here")
                 .font(.largeTitle)
             
             // More than 10 subviews
@@ -28,7 +28,7 @@ struct AdvancedTextFieldView: View {
                         Text("Username")
                     }
                     .keyboardType(.emailAddress)
-                    SecureField(text: $userHeroName, prompt: Text("Password")) {
+                    SecureField(text: $password, prompt: Text("Password")) {
                         Text("Password")
 
                     }
@@ -37,7 +37,7 @@ struct AdvancedTextFieldView: View {
                 }
                 
                 Button("Log in"){
-                    if(userName == "AwesomeBob" && userHeroName == "AwesomePassword"){
+                    if(userName == "AwesomeBob" && password == "AwesomePassword"){
                         print("You have logged in successfully")
                     }
                     else{
@@ -48,33 +48,12 @@ struct AdvancedTextFieldView: View {
                 Button("Forgot password?"){
                     
                 }
-                
-                /*Spacer()
-                Divider()
-                Spacer()*/
             }
-            
-           /* VStack {
-                Text("Different keyboard types:")
-                TextField("Type here", text: $message)
-                    .keyboardType(.phonePad)
-                    .submitLabel(.done)
-                    .padding()
-                
-                Spacer()
-                
-                Text("Dismissing the keyboard:")
-                TextField("Type here", text: $message)
-                    .submitLabel(.done)
-                    .padding()
-                
-                Spacer()
-            }*/
         }
     }
 }
 
-struct AdvancedTextFieldView_Previews: PreviewProvider {
+struct PassWord_Previews: PreviewProvider {
     static var previews: some View {
         AdvancedTextFieldView()
     }

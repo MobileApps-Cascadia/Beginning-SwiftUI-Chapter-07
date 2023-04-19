@@ -1,14 +1,15 @@
 //
-//  TextAndSecureFields.swift
+//  InClassWork.swift
 //  Chapter07
 //
-//  Created by Mike Panitz on 4/16/23.
+//  Created by Kenny Luchau on 4/18/23.
 //
+
 
 import Foundation
 import SwiftUI
 
-struct TextAndSecureView: View {
+struct TextV: View {
     @State var userName = ""
     @State var userFamilyName = ""
     @State var userHeroName = ""
@@ -24,11 +25,7 @@ struct TextAndSecureView: View {
                 
                 Text("Type your name here:")
                 TextField(".e.g., Mike", text: $userName)
-                    .submitLabel(.done)
-                    .frame(width: 100)
-                
                 Text("Your name: " + userName)
-                    .frame(width:200, height: 50)
                 
                 Spacer()
                 Divider()
@@ -38,7 +35,6 @@ struct TextAndSecureView: View {
             VStack {
                 Text("Type your super hero name here:")
                 SecureField(".e.g., Batman", text: $userHeroName)
-                    .submitLabel(.done)
                 Text("Secretly, you are the super hero  " + userHeroName)
                 
                 
@@ -51,10 +47,9 @@ struct TextAndSecureView: View {
                 Text("Type your name here:")
                 TextField(".e.g., Mike", text: $userName)
                     .textFieldStyle(.roundedBorder)
-                    .disableAutocorrection(true)
-                    .foregroundColor(.green)
+                    .foregroundColor(.blue)
                     .padding()
-                    .background(.pink)
+                    .background(.green)
                 Text("Your name: " + userName)
                 
                 Spacer()
@@ -65,8 +60,9 @@ struct TextAndSecureView: View {
     }
 }
 
-struct TextAndSecureView_Previews: PreviewProvider {
+struct TextPre: PreviewProvider {
     static var previews: some View {
         TextAndSecureView()
     }
 }
+
